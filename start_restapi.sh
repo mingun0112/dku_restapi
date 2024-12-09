@@ -3,7 +3,7 @@ sudo apt update -y
 
 echo "Installing Python and pip..."
 sudo apt install python3 python3-pip -y
-
+sudo apt install tmux
 
 
 pip3 install -r requirements.txt
